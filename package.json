@@ -2,13 +2,13 @@
   "name": "npm-component-bp-test",
   "version": "0.0.1",
   "description": "A test component library",
-  "main": "./dist/fileName.umd.js",
-  "module": "./dist/fileName.js",
+  "main": "./dist/test-component.umd.js",
+  "module": "./dist/test-component.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/fileName.esm.js",
-      "require": "./dist/fileName.js"
+      "import": "./dist/test-component.esm.js",
+      "require": "./dist/test-component.js"
     }
   },
   "files": [
@@ -26,7 +26,7 @@
     "component",
     "library"
   ],
-  "author": "Your Name",
+  "author": "BP",
   "peerDependencies": {
     "vue": "^3.0.0"
   },
