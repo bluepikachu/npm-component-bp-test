@@ -3,4 +3,4 @@ import PersonalButton from "./components/PersonalButton.vue";
 import PersonalTable from "./components/PersonalTable.vue";
 import PersonalInput from "./components/PersonalInput.vue";
 
-export { PersonalButton, PersonalTable, PersonalInput };
+export default { PersonalButton, PersonalTable, PersonalInput };
